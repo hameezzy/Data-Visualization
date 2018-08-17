@@ -1,0 +1,108 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Land Guzzlers</title>
+       
+</head>
+<body>
+    
+    <h1>Land Guzzlers</h1>
+    <h2>The ecological footprints of our pets can make SUVs look positively eco-friendly</h2>
+    <h4>Click on the black box below</h4>
+    
+    <!--HTML page objects go here-->
+    <svg id = "landguzzlers" width="900" height="900">
+
+    <rect id = "rect1" visibility = "hidden" x="0" y="0" width="900" height="900" style="fill:white; stroke:white" stroke-width="3" />
+    <rect id = "rect2" visibility = "hidden" x="10" y="74" width="820" height="820" style="fill:sienna; stroke:white" stroke-width="3"/>
+    <rect id = "rect3" visibility = "hidden" x="10" y="173" width="720" height="720" style="fill:tan; stroke:white" stroke-width="3"/>
+    <rect id = "rect4" visibility = "hidden" x="10" y="392" width="500" height="500" style="fill:deeppink; stroke:white" stroke-width="3";/>
+    <rect id = "rect5" visibility = "hidden" x="10" y="580" width="311" height="311" style="fill:firebrick; stroke:white" stroke-width="2";/>
+    <rect id = "rect6" visibility = "hidden" x="10" y="620" width="260" height="270" style="fill:orange; stroke:white" stroke-width="3"; />
+    <rect onclick = "hide()" x="10" y="810" width="80" height="80" style="stroke:white;"stroke-width="3";/>
+    
+    
+  
+    
+    <text x="95" y="610" font-size="22" style= "fill:white">VOLKSWAGON GOLF</text>
+    <text x="92" y="830" font-size="19" style= "fill:white">HAMSTER</text>
+    <text x="92" y="850" font-size="16" style= "fill:white">Eco-footprint:</text>
+    <text x="92" y="870" font-size="18" style= "fill:white">0.014 hectares</text>
+    <text x="220" y="645" font-size="25" fill="white">CAT</text>
+    <text x="195" y="610" transform="rotate(90,202,660)" font-size="18" fill="white">Eco-footprint: 0.15 hectares</text>
+    <text x="160" y="420" font-size="30" fill="white">TOYOTA LAND CRUISER</text>
+    <text x="270" y="225" transform="rotate(90,260,450)" font-size="18" fill="white">Eco-footprint: 0.41 hectares</text>
+    <text x="330" y="210" font-size="40" fill="white">MEDIUM-SIZED DOG</text>
+    <text x="60" y="10" transform="rotate(90,260,450)" font-size="25" fill="white">Eco-footprint: 0.84 hectares</text>
+    <text x="560" y="120" font-size="45" fill="white">LARGE DOG</text>
+    <text x= "-60" y="-90" transform="rotate(90,260,450)" font-size="25" fill="white">Eco-footprint: 1.1 hectares</text>
+    <text x="10" y="40" font-size="45" fill="white">Land guzzlers</text>
+    <text x="10" y="65" font-size="18" fill="white">The ecological footprints of our pets can make SUVs look positively eco-friendly</text>
+    <text x="470" y="240" font-size="20" fill="white">CONSUMPTION PER YEAR</text>
+    <text x="470" y="260" font-size="18" fill="white">164kg of meat, 95kg of cereals</text>
+    <text x="135" y="280" font-size="15" fill="white">
+        43.3m<tspan baseline-shift="super" font-size="15">2</tspan>of land per 1kg of chicken (more for beef and lamb), 13.4m<tspan baseline-shift="super" font-size="15">2</tspan>of land per 1kg of cereal</text>
+    <text x="230" y="450" font-size="20" fill="white">10,000 km DRIVEN PER YEAR</text>
+    <text x="100" y="470" font-size="15" fill="white">55.1 gigajoules (includes energy required to fuel and construct)</text>
+
+   <line x1="220" x2="260" y1="470" y2="470"></line>
+
+</svg>
+    <script>
+        /* variables, javascript and D3 functions go here */
+        function hide() {
+            
+            if(document.getElementById("rect1").getAttribute("visibility") == "hidden") {
+                document.getElementById("rect1").setAttribute("visibility","visible");
+            }
+            
+            else {
+                document.getElementById("rect1").setAttribute("visibility","hidden");
+            }
+            
+            
+            if(document.getElementById("rect2").getAttribute("visibility") == "hidden") {
+                document.getElementById("rect2").setAttribute("visibility","visible");
+            }
+            
+            else {
+                document.getElementById("rect2").setAttribute("visibility","hidden");
+            }
+            
+            if(document.getElementById("rect3").getAttribute("visibility") == "hidden") {
+                document.getElementById("rect3").setAttribute("visibility","visible");
+            }
+            
+            else {
+                document.getElementById("rect3").setAttribute("visibility","hidden");
+            }
+            
+            
+            if(document.getElementById("rect4").getAttribute("visibility") == "hidden") {
+                document.getElementById("rect4").setAttribute("visibility","visible");
+            }
+           
+            else {
+                document.getElementById("rect4").setAttribute("visibility","hidden");
+            }
+            
+            if(document.getElementById("rect5").getAttribute("visibility") == "hidden") {
+                document.getElementById("rect5").setAttribute("visibility","visible");
+            }
+            
+            else {
+                document.getElementById("rect5").setAttribute("visibility","hidden");
+            }
+            
+            if(document.getElementById("rect6").getAttribute("visibility") == "hidden") {
+                document.getElementById("rect6").setAttribute("visibility","visible");
+            }
+            
+            else {
+                document.getElementById("rect6").setAttribute("visibility","hidden");
+            }
+        } 
+    </script>
+</body>
+</html>
